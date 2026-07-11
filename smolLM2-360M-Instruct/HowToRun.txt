@@ -1,0 +1,7 @@
+# Clone model: https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct
+git clone https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct
+# Copy file runmodel.py in the directory where the file is
+python.exe -m venv .openai
+.\.openai\Scripts\activate
+python -m pip install openai
+py runmodel.py

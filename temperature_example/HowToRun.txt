@@ -1,0 +1,4 @@
+python.exe -m venv .openai
+.\.openai\Scripts\activate
+python -m pip install openai
+py openaitemp4.4.py
