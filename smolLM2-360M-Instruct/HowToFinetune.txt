@@ -1,0 +1,7 @@
+# Copy files bosnian.jsonl and finetune.py in the directory where the file is
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install torch transformers datasets trl peft accelerate
+py finetune.py
+# After fine tuning is done, there should be a new folder: smollm-bosnian
+py testfinetune.py
